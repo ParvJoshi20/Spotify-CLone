@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&family=Montserrat:wght@300;400;500;600;700&family=Noto+Serif+Makasar&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="spotify">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+                </div>
+                <div class="nav-option">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="library-one">
+                    <a href="#"><img src="./pictures/library_icon.png" height="20px" width="20px">Your Library</a>
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="library-two">
+                    <button class="library-two-btn">Playlists</button>
+                    <button class="library-two-btn">Artists</button>
+                    <button class="library-two-btn">Albums</button>
+                </div>
+                <div class="library-three">
+                    <div class="library-three-left">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="library-three-right">
+                        Recents<i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="library-box">
+                    <div class="library-box-p1">Create your first playlist</div>
+                    <div class="library-box-p2">It's easy, we'll help you</div>
+                    <button class="badge">Create playlist</button>
+                </div>
+                <div class="library-box">
+                    <div class="library-box-p1">Let's find some podcasts to follow</div>
+                    <div class="library-box-p2">We'll keep you updated on new episodes</div>
+                    <button class="badge">Browse podcasts</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="main-page">
+            <div class="page-nav">
+                <div class="page-nav-section">
+                    <div class="library-three-left">
+                        <img src="./pictures/backward_icon.png">
+                    </div>
+                    <div class="hide library-three-left">
+                        <img src="./pictures/forward_icon.png">
+                    </div>
+                </div>
+                <div class="page-nav-section">
+                    <div class="hide">
+                        <button class="badge">Explore Premium</button>
+                    </div>
+                    <div class="hide3">
+                        <button class="badge dark"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    </div>
+                    <div class="library-three-left" style="opacity: 1;">
+                        <i class="fa-solid fa-circle-user"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-inside">
+                            <div class="card-pic" style="background-image: url(./pictures/card1img.jpeg);">
+                                <div class="card-play" style="background-image: url(./pictures/play-button.png);">
+                                </div>
+                            </div>
+                            <div class="card-title">Top - 50 Global</div>
+                            <div class="card-desc">Your daily updates of the most played..</div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Trending now near you</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-inside">
+                            <div class="card-pic" style="background-image: url(./pictures/card2img.jpeg);">
+                                <div class="card-play" style="background-image: url(./pictures/play-button.png);">
+                                </div>
+                            </div>
+                            <div class="card-title">Top - 50 Global</div>
+                            <div class="card-desc">Your daily updates of the most played..</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inside">
+                            <div class="card-pic" style="background-image: url(./pictures/card3img.jpeg);">
+                                <div class="card-play" style="background-image: url(./pictures/play-button.png);"></div>
+                            </div>
+                            <div class="card-title">Top - 50 Global</div>
+                            <div class="card-desc">Your daily updates of the most played..</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inside">
+                            <div class="card-pic" style="background-image: url(./pictures/card4img.jpeg);">
+                                <div class="card-play" style="background-image: url(./pictures/play-button.png);"></div>
+                            </div>
+                            <div class="card-title">Top - 50 Global</div>
+                            <div class="card-desc">Your daily updates of the most played..</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inside">
+                            <div class="card-pic" style="background-image: url(./pictures/card2img.jpeg);">
+                                <div class="card-play" style="background-image: url(./pictures/play-button.png);"></div>
+                            </div>
+                            <div class="card-title">Top - 50 Global</div>
+                            <div class="card-desc">Your daily updates of the most played..</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inside">
+                            <div class="card-pic" style="background-image: url(./pictures/card3img.jpeg);">
+                                <div class="card-play" style="background-image: url(./pictures/play-button.png);"></div>
+                            </div>
+                            <div class="card-title">Top - 50 Global</div>
+                            <div class="card-desc">Your daily updates of the most played..</div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Featured Charts</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-inside">
+                            <div class="card-pic" style="background-image: url(./pictures/card5img.jpeg);">
+                                <div class="card-play" style="background-image: url(./pictures/play-button.png);"></div>
+                            </div>
+                            <div class="card-title">Top - 50 Global</div>
+                            <div class="card-desc">Your daily updates of the most played..</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inside">
+                            <div class="card-pic" style="background-image: url(./pictures/card5img.jpeg);">
+                                <div class="card-play" style="background-image: url(./pictures/play-button.png);"></div>
+                            </div>
+                            <div class="card-title">Top - 50 Global</div>
+                            <div class="card-desc">Your daily updates of the most played..</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inside">
+                            <div class="card-pic" style="background-image: url(./pictures/card6img.jpeg);">
+                                <div class="card-play" style="background-image: url(./pictures/play-button.png);"></div>
+                            </div>
+                            <div class="card-title">Top - 50 Global</div>
+                            <div class="card-desc">Your daily updates of the most played..</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer"><!--in main-content-->
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-cover">
+                    <img src="./pictures/album_picture.jpeg">
+                </div>
+                <div class="album-name hide5">
+                    <a href="#" class="song">Run That Race</a>
+                    <a href="#" class="artist hide1">Dan Auerbach</a>
+                </div>
+                <div class="album-icon">
+                    <img src="./pictures/album_icon1.png" style="height: 1.2rem;">
+                </div>
+                <div class="album-icon">
+                    <img src="./pictures/album_icon2.png" style="height: 2rem;">
+                </div>
+            </div>
+            <div class="control">
+                <div class="control-icons">
+                    <img class="hide5" src="./pictures/player_icon1.png">
+                    <img class="hide5" src="./pictures/player_icon2.png">
+                    <img src="./pictures/player_icon3.png" id="mid-btn">
+                    <img class="hide5" src="./pictures/player_icon4.png">
+                    <img class="hide5" src="./pictures/player_icon5.png">
+                </div>
+                <div class="playback-bar">
+                    <span>0:00</span>
+                    <div class="playback">
+                        <input class="progress-bar" type="range" min="0" max="164" step="5">
+                    </div>
+                    <span>2:44</span>
+                </div>
+            </div>
+            <div class="player">
+                <div>
+                    <img class="hide3" src="./pictures/controls_icon1.png" style="height: 2.5rem;">
+                </div>
+                <div>
+                    <img class="hide3" src="./pictures/controls_icon2.png" style="height: 2.5rem;">
+                </div>
+                <div>
+                    <img class="hide3" src="./pictures/controls_icon3.png" style="height: 1.4rem;" class="five">
+                </div>
+                <div>
+                    <img class="hide3" src="./pictures/controls_icon4.png" style="height: 1rem;" class="five">
+                </div>
+                <div>
+                    <img src="./pictures/controls_icon5.png" style="height: 2.5rem;">
+                </div>
+                <div class="player-vol">
+                    <input class="vol-bar" type="range" min="0" max="20" step="1">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
